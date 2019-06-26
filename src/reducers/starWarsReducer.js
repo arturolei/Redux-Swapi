@@ -6,6 +6,7 @@ const initialState = {
   fetching: false,
   error: null
 };
+
 export const charsReducer = (state = initialState, action) => {
   switch (action.type) {
     // Fill me in with the important reducers
